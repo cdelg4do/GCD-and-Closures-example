@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		0713A4111D875F01000E21D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0713A4101D875F01000E21D6 /* AppDelegate.swift */; };
-		0713A4181D875F01000E21D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0713A4171D875F01000E21D6 /* Assets.xcassets */; };
-		0713A41B1D875F01000E21D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0713A4191D875F01000E21D6 /* LaunchScreen.storyboard */; };
 		0713A4241D876537000E21D6 /* GCDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0713A4221D876537000E21D6 /* GCDViewController.swift */; };
 		0713A4251D876537000E21D6 /* GCDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0713A4231D876537000E21D6 /* GCDViewController.xib */; };
 		0713A4281D878C1B000E21D6 /* default-image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0713A4271D878C1B000E21D6 /* default-image.jpg */; };
@@ -18,8 +16,6 @@
 /* Begin PBXFileReference section */
 		0713A40D1D875F01000E21D6 /* EjemploGCD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EjemploGCD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0713A4101D875F01000E21D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0713A4171D875F01000E21D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0713A41A1D875F01000E21D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0713A41C1D875F01000E21D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0713A4221D876537000E21D6 /* GCDViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GCDViewController.swift; sourceTree = "<group>"; };
 		0713A4231D876537000E21D6 /* GCDViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GCDViewController.xib; sourceTree = "<group>"; };
@@ -58,8 +54,6 @@
 			children = (
 				0713A4261D878BFF000E21D6 /* Resources */,
 				0713A4101D875F01000E21D6 /* AppDelegate.swift */,
-				0713A4171D875F01000E21D6 /* Assets.xcassets */,
-				0713A4191D875F01000E21D6 /* LaunchScreen.storyboard */,
 				0713A41C1D875F01000E21D6 /* Info.plist */,
 				0713A4221D876537000E21D6 /* GCDViewController.swift */,
 				0713A4231D876537000E21D6 /* GCDViewController.xib */,
@@ -137,8 +131,6 @@
 			files = (
 				0713A4251D876537000E21D6 /* GCDViewController.xib in Resources */,
 				0713A4281D878C1B000E21D6 /* default-image.jpg in Resources */,
-				0713A41B1D875F01000E21D6 /* LaunchScreen.storyboard in Resources */,
-				0713A4181D875F01000E21D6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,17 +147,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		0713A4191D875F01000E21D6 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0713A41A1D875F01000E21D6 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		0713A41D1D875F01000E21D6 /* Debug */ = {
@@ -306,6 +287,7 @@
 				0713A4211D875F01000E21D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

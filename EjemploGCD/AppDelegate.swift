@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  EjemploGCD
 //
-//  Created by Carlos Delgado on 13/09/16.
-//  Copyright © 2016 KeepCoding. All rights reserved.
+//  This is just an example to illustrate the diference between performing
+//  a heavy-load action in the foreground and in the background.
 //
 
 import UIKit
@@ -16,16 +16,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         
-        // Crear la window
+        // Create a window and associate it to a new ViewController
         window = UIWindow(frame: UIScreen.main.bounds)
-        
-        // Crear el viewController
         let mainVC = GCDViewController(nibName: nil, bundle: nil)
-        
-        // Endosarle el rootVC
         window?.rootViewController = mainVC
         
-        // Darle el foco a la ventana y hacerla visible
+        // Set the focus on the window and make it visible
         window?.makeKeyAndVisible()
         
         return true

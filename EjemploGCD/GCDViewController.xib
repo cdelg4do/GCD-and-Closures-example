@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11198.2" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
@@ -19,7 +19,7 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xBy-ku-cOI">
-                    <frame key="frameInset" minX="-1" height="50" maxY="-2"/>
+                    <frame key="frameInset" minX="-1" height="49" maxX="1" maxY="-1"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                     <items>
                         <barButtonItem title="Sync" id="kEh-Ts-1zO">
@@ -28,15 +28,15 @@
                             </connections>
                         </barButtonItem>
                         <barButtonItem style="plain" systemItem="flexibleSpace" id="A0I-Zk-iuF"/>
-                        <barButtonItem title="Async#1" id="xT3-pC-sTA">
+                        <barButtonItem title="Async #1" id="xT3-pC-sTA">
                             <connections>
                                 <action selector="asyncDownload:" destination="-1" id="4dm-id-y3K"/>
                             </connections>
                         </barButtonItem>
                         <barButtonItem style="plain" systemItem="flexibleSpace" id="RkY-UW-cYY"/>
-                        <barButtonItem title="Async#2" id="Ayg-V8-d51">
+                        <barButtonItem title="Async #2" id="Ayg-V8-d51">
                             <connections>
-                                <action selector="actorDownload:" destination="-1" id="nPT-eL-8yV"/>
+                                <action selector="asyncDownloadWithClosure:" destination="-1" id="yJT-Cs-loJ"/>
                             </connections>
                         </barButtonItem>
                         <barButtonItem style="plain" systemItem="flexibleSpace" id="zOY-DT-Xa3"/>
@@ -48,18 +48,18 @@
                     </items>
                 </toolbar>
                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fl4-r9-hSh">
-                    <frame key="frameInset" minX="-0.31%" minY="3.52%" width="100.31%" height="81.69%"/>
+                    <frame key="frameInset" minX="-0.31%" minY="3.52%" width="100.00%" height="81.69%"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Yjx-BN-all">
-                    <frame key="frameInset" minX="2.81%" minY="91.25%" width="94.06%" height="31"/>
+                    <frame key="frameInset" minX="2.81%" minY="91.05%" width="93.44%" height="32"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                     <connections>
                         <action selector="updateAplha:" destination="-1" eventType="valueChanged" id="cwg-aH-PXD"/>
                     </connections>
                 </slider>
                 <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="Ift-ov-WDN">
-                    <frame key="frameInset" minX="49.82%" minY="44.07%" width="37" height="37"/>
+                    <frame key="frameInset" minX="49.82%" minY="44.09%" width="37" height="35"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                     <color key="color" red="1" green="0.117859542" blue="0.1178996516" alpha="1" colorSpace="calibratedRGB"/>
                 </activityIndicatorView>
